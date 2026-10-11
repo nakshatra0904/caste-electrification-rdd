@@ -1,0 +1,12 @@
+{
+  "r_executed": true,
+  "source_size": 2294890843,
+  "source_md5": "93b0a08e49bc3989a2d1248660260cd5",
+  "byte_size_verified": true,
+  "md5_verified": true,
+  "extract_rows": 55320,
+  "extract_columns": 63,
+  "all_source_values_match": true,
+  "executed_on": "2026-10-12",
+  "script": "R/optional_rebuild_extract.R"
+}

@@ -12,5 +12,16 @@
   "local_main_districts": 129,
   "main_bandwidth": 100,
   "primary_tests": 4,
-  "exploratory_secondary_tests": 12
+  "exploratory_secondary_tests": 12,
+  "primary_language": "R",
+  "r_executed": true,
+  "r_run_date": "2026-10-12",
+  "reference_outputs_original_language": "Python",
+  "stata_code_replaced": true,
+  "source_rebuild_in_R_passed": true,
+  "r_table_comparisons": 21,
+  "r_graph_designs_generated": 18,
+  "r_data_reconstruction_passed": true,
+  "r_validation": "verification/R_validation.json",
+  "r_independent_matrix_checks": "verification/R_independent_matrix_checks.json"
 }

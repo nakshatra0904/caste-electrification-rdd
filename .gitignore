@@ -1,8 +1,11 @@
 raw/
 work/
-python_packages/
+r_library/
+r_generated/
+.Rhistory
+.RData
+.Rproj.user/
 __pycache__/
 *.pyc
-stata_generated/
 .DS_Store
 Thumbs.db

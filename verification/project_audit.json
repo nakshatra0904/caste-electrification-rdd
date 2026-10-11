@@ -106,9 +106,15 @@
     "All 55,320 delivered villages and source columns re-extracted exactly from the full public file",
     "All eighteen repository graphs included exactly once in the compiled graphical appendix",
     "26-page PDF, eighteen landscape appendix pages, source/PDF/asset hashes verified",
-    "Final LuaLaTeX log has no errors, warnings, overfull boxes or unresolved references"
+    "Final LuaLaTeX log has no errors, warnings, overfull boxes or unresolved references",
+    "Executed R preparation reproduces every delivered data value",
+    "Executed R reproduces 21 numerical tables, including all eight complete main models",
+    "Independent R normal equations and cluster score sums confirm every main coefficient and covariance",
+    "R generates eighteen PNG/SVG/vector-PDF graph designs; contact-sheet and representative full-size review passed",
+    "Optional R extraction passes the full original archive size, MD5 and exact source-value comparison",
+    "Final R report compiled without warnings/overflows; 26 pages and all eighteen graph inclusions verified"
   ],
-  "check_count": 105,
+  "check_count": 111,
   "full_source_checked": true,
   "stata_runtime_verified": false,
   "main_conclusion_changed": false,
@@ -128,5 +134,24 @@
     "stata_execution_status_preserved": true,
     "report_source_and_pdf_match": true,
     "all_26_pages_visually_reviewed": true
+  },
+  "r_conversion_audit_date": "2026-10-12",
+  "primary_language": "R",
+  "r_executed": true,
+  "r_validation_passed": true,
+  "r_table_comparisons": 21,
+  "r_graphs_generated": 18,
+  "r_graph_contact_review_passed": true,
+  "r_source_rebuild_passed": true,
+  "r_independent_cr1_check_passed": true,
+  "r_publication_review_date": "2026-10-12",
+  "r_publication_checks": {
+    "all_reference_numerical_hashes_unchanged": 79,
+    "r_scripts": 10,
+    "source_and_pdf_match": true,
+    "r_tables_validated": 21,
+    "source_rebuild_passed": true,
+    "prohibited_tool_mentions_found": 0,
+    "local_links_passed": true
   }
 }

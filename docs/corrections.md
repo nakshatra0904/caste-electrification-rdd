@@ -21,3 +21,7 @@ I added all eighteen repository graphs to the formal LaTeX PDF as Figures 4-21 i
 ## Repository publication (11 October 2026)
 
 I revised the research narrative into first person, added my GitHub username as author, and prepared the complete repository for GitHub. I retained the original authors' data and literature citations, the exploratory interpretation and the outstanding Stata runtime check. I did not alter the data, regression estimates or graph results.
+
+## Executed R conversion and public repository (12 October 2026)
+
+I made the repository public and replaced the supplied Stata/Python analysis scripts with an executed R pipeline. The R code reconstructs the data, exports complete models, runs the diagnostics and sensitivities, uses R rdrobust and generates all eighteen graph designs. The rebuilt data and 21 numerical comparisons passed; all eight main coefficients and CR1 covariances passed an additional independent matrix check. The optional R extraction also reproduces all 55,320 source rows from the checksum-verified full archive. The conclusions and published graph designs are unchanged. I retained the original publication tables and images as independently verified reference outputs and documented R styling and package-metadata differences. Earlier execution-limit statements above describe the historical Stata version.

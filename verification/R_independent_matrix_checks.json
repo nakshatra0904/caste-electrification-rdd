@@ -1,0 +1,42 @@
+[
+  {
+    "outcome": "vd_pwr_d_dom_11",
+    "coefficient_max_difference": 3.3985037006800667e-12,
+    "covariance_max_difference": 2.6299519203035193e-14
+  },
+  {
+    "outcome": "hpca11_msl_elec",
+    "coefficient_max_difference": 4.0472070139685457e-12,
+    "covariance_max_difference": 4.9092674370143641e-14
+  },
+  {
+    "outcome": "work_p_11",
+    "coefficient_max_difference": 1.2354006706516429e-12,
+    "covariance_max_difference": 4.4443615454525798e-15
+  },
+  {
+    "outcome": "work_f_11",
+    "coefficient_max_difference": 1.0332290578674019e-12,
+    "covariance_max_difference": 3.7719827261639693e-14
+  },
+  {
+    "outcome": "work_pooled_ot_p_11",
+    "coefficient_max_difference": 7.9920792206422675e-13,
+    "covariance_max_difference": 2.2080861444839783e-15
+  },
+  {
+    "outcome": "work_pooled_ot_f_11",
+    "coefficient_max_difference": 4.6949943932617089e-13,
+    "covariance_max_difference": 1.0747045614545314e-14
+  },
+  {
+    "outcome": "vdp_pwr_d_com_11",
+    "coefficient_max_difference": 2.5369983891465608e-12,
+    "covariance_max_difference": 2.9065251182409935e-14
+  },
+  {
+    "outcome": "vd_pwr_d_all_11",
+    "coefficient_max_difference": 2.2301049895645519e-12,
+    "covariance_max_difference": 1.0172052544894783e-13
+  }
+]

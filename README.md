@@ -24,13 +24,13 @@ Village caste composition is not individual household caste. These are local eli
 ## Repository contents
 
 ```text
-data/          Real source extract and cleaned analysis data (.dta and .csv)
-stata/         Master plus cleaning, descriptives, RDD, robustness and graph .do files
+data/          Real source extract (.dta/.csv) and cleaned analysis data (.rds/.dta/.csv)
+R/             Executed preparation, descriptives, RDD, robustness, graphs and validation scripts
 tables/        Executed descriptive, regression and diagnostic CSV outputs
 figures/       18 figures in PNG and SVG formats
 report/        Formal LaTeX source and compiled PDF, 18 vector PDF graph assets, Markdown and HTML gallery
 docs/          Analysis plan, variable dictionary, source/figure manifests, references
-verification/  Executed model summaries, execution status and Python verification code
+verification/  Executed model summaries, R logs, package versions and numerical validation
 ```
 
 ## Compile the formal LaTeX report
@@ -52,26 +52,28 @@ I compiled `report/report.pdf` from `report/report.tex` using LuaLaTeX (TeX Live
 - Report Section 5.2 / Table 3: primary SC/ST interaction results.
 - Report Appendix A / Table 5: main regression coefficients and standard errors.
 - Report Appendix B / Figures 4-21: all eighteen repository graphs, including RDD plots, balance checks and sensitivity analyses.
-- `stata/03_rdd.do`: Stata estimation; `stata/04_robustness.do`: diagnostic and sensitivity specifications.
+- `R/03_rdd.R`: R estimation; `R/04_robustness.R`: diagnostic and sensitivity specifications.
 - `tables/full_model_*.csv`: complete coefficient tables for all eight outcomes; `verification/model_*.txt`: readable executed summaries.
 - `tables/pooled_rdrobust.csv`: all pooled estimates, bandwidths, sample counts and properly distinguished cluster counts.
 
 ## Audit and corrections
 
-I re-extracted all 55,320 candidate villages and verified that they matched the supplied source extract exactly. I independently checked all eight main coefficient vectors and cluster covariance matrices. I corrected double-precision transformations, pooled RDD cluster-count labels, Stata exports of complete coefficient tables and percentile conventions. I refreshed all eighteen graphs with clearer labels, consistent colours, wrapped captions and improved spacing. The main findings are unchanged. See `docs/corrections.md` and `verification/project_audit.json`.
+I re-extracted all 55,320 candidate villages and verified that they matched the supplied source extract exactly. I independently checked all eight main coefficient vectors and cluster covariance matrices. I corrected double-precision transformations, pooled RDD cluster-count labels, complete coefficient exports and percentile conventions. I refreshed all eighteen graphs with clearer labels, consistent colours, wrapped captions and improved spacing. The main findings are unchanged. See `docs/corrections.md` and `verification/project_audit.json`.
 
-## Run the Stata analysis
+## Run the R analysis
 
-Requires Stata 16 or newer. Start Stata and change to the extracted repository root:
+Requires R 4.5 or newer and the packages `haven`, `jsonlite` and `rdrobust`. From the extracted repository root:
 
-```stata
-cd "C:/path/to/caste_electrification_study"
-do "stata/00_master.do"
+```text
+Rscript R/install_packages.R
+Rscript R/00_master.R
 ```
 
-The shipped `data/source_extract.dta` is the input. The master recreates cleaned data, estimates, diagnostics and 18 graphs under `stata_generated/`; original delivered outputs remain available. Core estimation uses built-in Stata commands. Pooled robust-bias-corrected benchmarks use `rdrobust`; the master attempts installation if missing and logs a clear skip if unavailable.
+The installer uses the repository-local `r_library/` folder. The master starts from `data/source_extract.dta`, reconstructs the analysis data, runs all eight main models and the sensitivity/diagnostic specifications, and generates all eighteen graph designs as PNG, SVG and vector PDF. It writes new outputs under `r_generated/`. An optional output directory can be supplied as the first argument to the master. It stops on missing packages or failed numerical validation.
 
-I provide Stata code as the primary implementation. **I have not executed the Stata pipeline because a working Stata installation was unavailable during this analysis.** I produced the numerical outputs and figures with matching Python statistical methods. I therefore distinguish the verified numerical results from Stata runtime verification, which remains outstanding. See `verification/execution_status.json` and `docs/reproduction_notes.md`.
+**I executed the complete R pipeline.** The reconstructed data match the supplied analysis data, and 21 numerical tables match the original published results within the recorded tolerances. I independently checked all eight coefficient vectors and CR1 covariance matrices. I used R 4.5.1, haven 2.5.5, jsonlite 2.0.0 and rdrobust 4.1.1. Logs, package versions, session information and comparison results are in `verification/`.
+
+I retained the original publication figures and numerical tables after checking the R reproduction. Those reference outputs were initially produced with Python; the current supplied analysis code is R. The R graphs use the same data, metrics and statistical designs with native R styling. See `docs/reproduction_notes.md` for exact comparisons and package-specific metadata. No Stata installation is required.
 
 ## Data and source checks
 
@@ -81,7 +83,7 @@ I provide Stata code as the primary implementation. **I have not executed the St
 - Candidate extract: 55,320 villages; preferred local sample: 12,533 villages.
 - Data are real; no synthetic observations were substituted.
 - Source data license: CC0 1.0; original code here: MIT. See `DATA_LICENSE.md`.
-- The full multi-gigabyte source is linked, not bundled. `stata/optional_rebuild_extract.do` rebuilds the compact source extract if the original file is supplied under `raw/`.
+- The full multi-gigabyte source is linked, not bundled. `R/optional_rebuild_extract.R` verifies and rebuilds the compact extract when given the original source file path. I executed this rebuild and verified all source rows against the delivered extract.
 
 ## Design
 
@@ -91,7 +93,7 @@ Primary and sensitivity results are intent-to-treat. No domestic-electricity fuz
 
 ## Repository and download
 
-I maintain the complete study in [caste-electrification-rdd](https://github.com/nakshatra0904/caste-electrification-rdd). It contains the compact real data, all seven Stata files, executed results, eighteen graphs in PNG/SVG, eighteen vector report assets and the formal PDF with its LaTeX source. Every bundled file is below 100 MB. The full raw archive is linked separately and excluded by `.gitignore`. You can inspect the outputs locally after downloading and extracting the repository.
+I maintain the complete study in [caste-electrification-rdd](https://github.com/nakshatra0904/caste-electrification-rdd). It contains the compact real data, the complete executed R code, executed results, eighteen graphs in PNG/SVG, eighteen vector report assets and the formal PDF with its LaTeX source. Every bundled file is below 100 MB. The full raw archive is linked separately and excluded by `.gitignore`. You can inspect the outputs locally after downloading and extracting the repository.
 
 ## Citation
 

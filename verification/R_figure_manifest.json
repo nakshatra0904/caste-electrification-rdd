@@ -1,0 +1,74 @@
+[
+  {
+    "file": "figures/01_population_frequencies.png",
+    "caption": "Source: public RGGVY archive; 2001 Census, population 100-499. Integer counts; this is not a continuous density test."
+  },
+  {
+    "file": "figures/02_baseline_caste_distributions.png",
+    "caption": "Source: Burlig-Preonas public replication data; 2001/2011 Census. Local sample: population 200-399. Caste shares are measured before the policy."
+  },
+  {
+    "file": "figures/03_caste_composition_balance.png",
+    "caption": "Source: public RGGVY archive, 2001 Census. Dots: 20-person bins at mean population; lines: unadjusted triangular local-linear fits, h=100."
+  },
+  {
+    "file": "figures/04_rd_vd_pwr_d_dom_11.png",
+    "caption": "Source: public RGGVY archive, Census 2001/2011. Dots: 20-person bins at mean population; lines: unadjusted local-linear fits, h=100. Formal models include state effects. Shading: h=100; display lines extended to the cutoff."
+  },
+  {
+    "file": "figures/05_rd_hpca11_msl_elec.png",
+    "caption": "Source: public RGGVY archive, Census 2001/2011. Dots: 20-person bins at mean population; lines: unadjusted local-linear fits, h=100. Formal models include state effects. Shading: h=100; display lines extended to the cutoff."
+  },
+  {
+    "file": "figures/06_rd_hpca01_msl_elec.png",
+    "caption": "Source: public RGGVY archive, Census 2001/2011. Dots: 20-person bins at mean population; lines: unadjusted local-linear fits, h=100. Formal models include state effects. Shading: h=100; display lines extended to the cutoff."
+  },
+  {
+    "file": "figures/07_access_and_adoption_by_group.png",
+    "caption": "Source: Burlig-Preonas public replication data; 2001/2011 Census. Local sample: population 200-399. Group means are descriptive, not causal effects."
+  },
+  {
+    "file": "figures/08_primary_caste_heterogeneity.png",
+    "caption": "Source: executed local-linear RDD, h=100, state effects and block-clustered 95% t intervals. Conventional intervals; exploratory heterogeneity."
+  },
+  {
+    "file": "figures/09_employment_heterogeneity.png",
+    "caption": "Source: executed local-linear RDD, Census 2011; h=100, state effects, block-clustered 95% t intervals. See Holm-adjusted p-values in tables."
+  },
+  {
+    "file": "figures/10_bandwidth_sensitivity.png",
+    "caption": "Source: executed caste-interacted local-linear RDD; 95% block-clustered t intervals. Wider bandwidths change both precision and smoothing bias."
+  },
+  {
+    "file": "figures/11_specification_sensitivity.png",
+    "caption": "Source: executed RDD, h=100; 95% t intervals. Includes state-specific discontinuities and population slopes; see table for all specifications."
+  },
+  {
+    "file": "figures/12_baseline_balance.png",
+    "caption": "Source: executed local-linear RDD at 299.5, h=100, state effects, block-clustered 95% t intervals. A small p-value can signal a design concern."
+  },
+  {
+    "file": "figures/13_majority_group_rdd.png",
+    "caption": "Source: subgroup local-linear RDD, h=100; state effects and block-clustered 95% t intervals. >=50 observations and >=20 blocks per side required."
+  },
+  {
+    "file": "figures/14_state_sample_coverage.png",
+    "caption": "Source: Burlig-Preonas public replication data; 2001/2011 Census. Local sample: population 200-399. Pooled estimates use available valid states; these counts do not establish state-specific statistical power."
+  },
+  {
+    "file": "figures/15_pre_policy_nightlight_checks.png",
+    "caption": "Source: public RGGVY archive, DMSP annual maximum brightness 1998-2004. Separate state-adjusted local-linear RDDs, h=100; block-clustered 95% t intervals."
+  },
+  {
+    "file": "figures/16_access_adoption_gap.png",
+    "caption": "Source: Burlig-Preonas public replication data; 2001/2011 Census. Local sample: population 200-399. Descriptive difference between two village-level measures; not a disconnection rate or individual caste gap."
+  },
+  {
+    "file": "figures/17_productive_electricity_rdd.png",
+    "caption": "Source: public RGGVY archive, Census 2011. Commercial and all-sector margins added as exploratory literature-motivated checks; unadjusted display fits, h=100."
+  },
+  {
+    "file": "figures/18_productive_electricity_heterogeneity.png",
+    "caption": "Source: executed local-linear RDD, h=100, state effects and block-clustered 95% t intervals. Exploratory outcomes added after the primary benchmark was examined."
+  }
+]

@@ -1,6 +1,6 @@
 # Caste composition and rural electrification in India
 
-**Exploratory regression-discontinuity extension | nakshatra0904 | 11 October 2026**
+**Exploratory regression-discontinuity extension | nakshatra0904 | 12 October 2026**
 
 ## Main finding
 
@@ -114,9 +114,9 @@ The policy-relevant conclusion is a measurement and identification distinction: 
 
 ## Reproduction and execution status
 
-I produced all numerical outputs and eighteen figures using Python statistical libraries and provide a matching Stata pipeline as the primary code implementation. I have not executed the Stata pipeline because Stata was unavailable; its runtime verification remains outstanding. I independently checked the main clustered WLS coefficients and covariance matrices using direct matrix formulas, and audited the source and transformed data; see verification/execution_status.json.
+I executed the complete R implementation for data reconstruction, descriptive statistics, all eight main regressions, robust-bias-corrected pooled RDD, diagnostics, sensitivities and all eighteen graph designs. The source reconstruction and 21 numerical-table comparisons passed. I independently checked all eight coefficient vectors and CR1 covariance matrices with direct matrix formulas. I also executed the R source-extract rebuild against the full archive. Execution records, versions and checks are retained in verification/.
 
-Run stata/00_master.do from the repository root. It uses the shipped source extract, recreates cleaned data, regressions, diagnostics and 18 graphs, and writes to stata_generated/ so delivered outputs are preserved. It installs rdrobust if absent; without that package the built-in Stata analysis still runs and explicitly skips pooled robust-bias-corrected benchmarks.
+Run `Rscript R/install_packages.R`, then `Rscript R/00_master.R` from the repository root. New outputs go to `r_generated/`. I used R 4.5.1, haven 2.5.5, jsonlite 2.0.0 and rdrobust 4.1.1. The published reference tables and figures were initially produced with Python and are retained after independent R validation; the supplied analysis code is now R. The R graphs reproduce the same designs with native styling. See docs/reproduction_notes.md for comparison tolerances and package-specific cluster metadata.
 
 ## References
 

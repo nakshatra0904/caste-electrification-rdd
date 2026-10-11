@@ -6,14 +6,14 @@
   "compiler_service": "https://texlive.net/cgi-bin/latexcgi",
   "external_compilation_explicitly_authorized": true,
   "built_in_compiler_failed": true,
-  "built_in_diagnostic": "Unable to find standard directories for platform",
-  "compile_date_local": "2026-10-11",
+  "built_in_diagnostic": "Unable to load 01_population_frequencies.pdf; built-in compilation does not include additional project files.",
+  "compile_date_local": "2026-10-12",
   "pages": 26,
   "pdf_compiled_from_tex": true,
   "standalone_source": false,
   "inline_figures": 3,
-  "source_sha256": "8c55b34ed4fce3b517108706b0070570a215042e4f49fae144d7ab68a8e84770",
-  "pdf_sha256": "4674329207345312bb28d782a6b3ec8b350d7bddc2852e5c7019c9c691e7cf8b",
+  "source_sha256": "ba210b6650bf396e2b318299963f80b61701a148866f6cadbf35aa6a954054fd",
+  "pdf_sha256": "94db7a6116787215c40ec5a4af5c1ebad1f4e942a6915b2956a5b600acc7e14f",
   "compiler_errors": 0,
   "overfull_boxes": 0,
   "undefined_references": false,
@@ -27,5 +27,7 @@
   "underfull_boxes": 0,
   "graph_coverage": "verification/report_graph_coverage.json",
   "author": "nakshatra0904",
-  "native_compiler_last_status": "busy"
+  "native_compiler_last_status": "failed_missing_graph_assets",
+  "native_compilation_attempts_for_R_revision": 3,
+  "analysis_language": "R"
 }

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.9.28)  11 OCT 2026 20:20
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.9.28)  11 OCT 2026 22:25
  restricted system commands enabled.
 **document
 (./document.tex
@@ -884,33 +884,33 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip57
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 14.
+Package hyperref Info: Option `colorlinks' set `true' on input line 15.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/l3kernel/l3backend-luatex.def
 File: l3backend-luatex.def 2026-09-09 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count346
 Inserting `l3color' in `luaotfload.parse_color'.) (./document.aux)
 \openout1 = document.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -971,13 +971,13 @@ e
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-LaTeX Info: Redefining \microtypecontext on input line 75.
-Package microtype Info: Applying patch `item' on input line 75.
-Package microtype Info: Applying patch `toc' on input line 75.
-Package microtype Info: Applying patch `eqnum' on input line 75.
-Package microtype Info: Applying patch `footnote' on input line 75.
-Package microtype Info: Applying patch `verbatim' on input line 75.
-LaTeX Info: Redefining \microtypesetup on input line 75.
+LaTeX Info: Redefining \microtypecontext on input line 78.
+Package microtype Info: Applying patch `item' on input line 78.
+Package microtype Info: Applying patch `toc' on input line 78.
+Package microtype Info: Applying patch `eqnum' on input line 78.
+Package microtype Info: Applying patch `footnote' on input line 78.
+Package microtype Info: Applying patch `verbatim' on input line 78.
+LaTeX Info: Redefining \microtypesetup on input line 78.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -995,7 +995,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 75.
+Package hyperref Info: Link coloring ON on input line 78.
 
 (./document.out) (./document.out)
 \@outlinefile=\write4
@@ -1004,38 +1004,38 @@ Package hyperref Info: Link coloring ON on input line 75.
  [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
-7.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+00.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
-7.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+00.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-97.
+100.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-97.
+100.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 97.
+(Font)              <10.95> on input line 100.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 97.
+(Font)              <8> on input line 100.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 97.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 97.
-
+(Font)              <6> on input line 100.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 100
+.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1043,8 +1043,8 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 97.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 100
+.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1053,7 +1053,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [2]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-24.
+27.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1063,21 +1063,21 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 136.
+(Font)              <9> on input line 139.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 136.
+(Font)              <5> on input line 139.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 156.
+(Font)              <10> on input line 159.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 156.
-Package pgfplots info on input line 179: Using 'lua backend=false' for plot 0 (
+(Font)              <7> on input line 159.
+Package pgfplots info on input line 182: Using 'lua backend=false' for plot 0 (
 type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
-Package pgfplots info on input line 183: Using 'lua backend=false' for plot 1 (
+Package pgfplots info on input line 186: Using 'lua backend=false' for plot 1 (
 type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
  [3] [4] [5]
-Package pgfplots info on input line 248: Using 'lua backend=false' for plot 0 (
+Package pgfplots info on input line 251: Using 'lua backend=false' for plot 0 (
 type 'pgfplothandlerlineto'): LUA does not support error bars (yet).
-Package pgfplots info on input line 254: Using 'lua backend=false' for plot 1 (
+Package pgfplots info on input line 257: Using 'lua backend=false' for plot 1 (
 type 'pgfplothandlerlineto'): LUA does not support error bars (yet).
 
 [6] [7] [8
@@ -1086,7 +1086,7 @@ type 'pgfplothandlerlineto'): LUA does not support error bars (yet).
 <01_population_frequencies.pdf, id=158, 640.79471pt x 280.42061pt>
 File: 01_population_frequencies.pdf Graphic file (type pdf)
 <use 01_population_frequencies.pdf>
-Package luatex.def Info: 01_population_frequencies.pdf  used on input line 335.
+Package luatex.def Info: 01_population_frequencies.pdf  used on input line 338.
 
 (luatex.def)             Requested size: 627.58342pt x 274.63914pt.
  [9
@@ -1097,7 +1097,7 @@ Package luatex.def Info: 01_population_frequencies.pdf  used on input line 335.
 File: 02_baseline_caste_distributions.pdf Graphic file (type pdf)
 <use 02_baseline_caste_distributions.pdf>
 Package luatex.def Info: 02_baseline_caste_distributions.pdf  used on input lin
-e 342.
+e 345.
 (luatex.def)             Requested size: 700.50829pt x 275.57622pt.
  [10
 
@@ -1106,7 +1106,7 @@ e 342.
 File: 03_caste_composition_balance.pdf Graphic file (type pdf)
 <use 03_caste_composition_balance.pdf>
 Package luatex.def Info: 03_caste_composition_balance.pdf  used on input line 3
-49.
+52.
 (luatex.def)             Requested size: 700.51947pt x 250.19397pt.
  [11
 
@@ -1114,7 +1114,7 @@ Package luatex.def Info: 03_caste_composition_balance.pdf  used on input line 3
 <04_rd_vd_pwr_d_dom_11.pdf, id=438, 640.61113pt x 280.42061pt>
 File: 04_rd_vd_pwr_d_dom_11.pdf Graphic file (type pdf)
 <use 04_rd_vd_pwr_d_dom_11.pdf>
-Package luatex.def Info: 04_rd_vd_pwr_d_dom_11.pdf  used on input line 356.
+Package luatex.def Info: 04_rd_vd_pwr_d_dom_11.pdf  used on input line 359.
 (luatex.def)             Requested size: 700.54941pt x 306.65791pt.
  [12
 
@@ -1122,7 +1122,7 @@ Package luatex.def Info: 04_rd_vd_pwr_d_dom_11.pdf  used on input line 356.
 <05_rd_hpca11_msl_elec.pdf, id=534, 640.61113pt x 280.42061pt>
 File: 05_rd_hpca11_msl_elec.pdf Graphic file (type pdf)
 <use 05_rd_hpca11_msl_elec.pdf>
-Package luatex.def Info: 05_rd_hpca11_msl_elec.pdf  used on input line 363.
+Package luatex.def Info: 05_rd_hpca11_msl_elec.pdf  used on input line 366.
 (luatex.def)             Requested size: 700.54941pt x 306.65791pt.
  [13
 
@@ -1130,7 +1130,7 @@ Package luatex.def Info: 05_rd_hpca11_msl_elec.pdf  used on input line 363.
 <06_rd_hpca01_msl_elec.pdf, id=629, 640.61113pt x 280.42061pt>
 File: 06_rd_hpca01_msl_elec.pdf Graphic file (type pdf)
 <use 06_rd_hpca01_msl_elec.pdf>
-Package luatex.def Info: 06_rd_hpca01_msl_elec.pdf  used on input line 370.
+Package luatex.def Info: 06_rd_hpca01_msl_elec.pdf  used on input line 373.
 (luatex.def)             Requested size: 700.54941pt x 306.65791pt.
  [14
 
@@ -1139,7 +1139,7 @@ Package luatex.def Info: 06_rd_hpca01_msl_elec.pdf  used on input line 370.
 File: 07_access_and_adoption_by_group.pdf Graphic file (type pdf)
 <use 07_access_and_adoption_by_group.pdf>
 Package luatex.def Info: 07_access_and_adoption_by_group.pdf  used on input lin
-e 377.
+e 380.
 (luatex.def)             Requested size: 700.51375pt x 250.13406pt.
 
 [15
@@ -1149,7 +1149,7 @@ e 377.
 File: 08_primary_caste_heterogeneity.pdf Graphic file (type pdf)
 <use 08_primary_caste_heterogeneity.pdf>
 Package luatex.def Info: 08_primary_caste_heterogeneity.pdf  used on input line
- 384.
+ 387.
 (luatex.def)             Requested size: 700.5304pt x 275.01585pt.
  [16
 
@@ -1158,7 +1158,7 @@ Package luatex.def Info: 08_primary_caste_heterogeneity.pdf  used on input line
 File: 09_employment_heterogeneity.pdf Graphic file (type pdf)
 <use 09_employment_heterogeneity.pdf>
 Package luatex.def Info: 09_employment_heterogeneity.pdf  used on input line 39
-1.
+4.
 (luatex.def)             Requested size: 700.54941pt x 343.29399pt.
  [17
 
@@ -1166,7 +1166,7 @@ Package luatex.def Info: 09_employment_heterogeneity.pdf  used on input line 39
 <10_bandwidth_sensitivity.pdf, id=1028, 785.36168pt x 508.61067pt>
 File: 10_bandwidth_sensitivity.pdf Graphic file (type pdf)
 <use 10_bandwidth_sensitivity.pdf>
-Package luatex.def Info: 10_bandwidth_sensitivity.pdf  used on input line 398.
+Package luatex.def Info: 10_bandwidth_sensitivity.pdf  used on input line 401.
 (luatex.def)             Requested size: 557.98218pt x 361.35667pt.
  [18
 
@@ -1175,7 +1175,7 @@ Package luatex.def Info: 10_bandwidth_sensitivity.pdf  used on input line 398.
 File: 11_specification_sensitivity.pdf Graphic file (type pdf)
 <use 11_specification_sensitivity.pdf>
 Package luatex.def Info: 11_specification_sensitivity.pdf  used on input line 4
-05.
+08.
 (luatex.def)             Requested size: 566.38313pt x 361.3646pt.
  [19
 
@@ -1183,7 +1183,7 @@ Package luatex.def Info: 11_specification_sensitivity.pdf  used on input line 4
 <12_baseline_balance.pdf, id=1234, 709.85513pt x 349.94434pt>
 File: 12_baseline_balance.pdf Graphic file (type pdf)
 <use 12_baseline_balance.pdf>
-Package luatex.def Info: 12_baseline_balance.pdf  used on input line 412.
+Package luatex.def Info: 12_baseline_balance.pdf  used on input line 415.
 (luatex.def)             Requested size: 700.5383pt x 345.3513pt.
  [20
 
@@ -1191,7 +1191,7 @@ Package luatex.def Info: 12_baseline_balance.pdf  used on input line 412.
 <13_majority_group_rdd.pdf, id=1326, 784.68344pt x 280.42061pt>
 File: 13_majority_group_rdd.pdf Graphic file (type pdf)
 <use 13_majority_group_rdd.pdf>
-Package luatex.def Info: 13_majority_group_rdd.pdf  used on input line 419.
+Package luatex.def Info: 13_majority_group_rdd.pdf  used on input line 422.
 (luatex.def)             Requested size: 700.55717pt x 250.35657pt.
 
 [21
@@ -1200,7 +1200,7 @@ Package luatex.def Info: 13_majority_group_rdd.pdf  used on input line 419.
 <14_state_sample_coverage.pdf, id=1424, 639.76704pt x 349.94434pt>
 File: 14_state_sample_coverage.pdf Graphic file (type pdf)
 <use 14_state_sample_coverage.pdf>
-Package luatex.def Info: 14_state_sample_coverage.pdf  used on input line 426.
+Package luatex.def Info: 14_state_sample_coverage.pdf  used on input line 429.
 (luatex.def)             Requested size: 660.62697pt x 361.35443pt.
  [22
 
@@ -1209,7 +1209,7 @@ Package luatex.def Info: 14_state_sample_coverage.pdf  used on input line 426.
 File: 15_pre_policy_nightlight_checks.pdf Graphic file (type pdf)
 <use 15_pre_policy_nightlight_checks.pdf>
 Package luatex.def Info: 15_pre_policy_nightlight_checks.pdf  used on input lin
-e 433.
+e 436.
 (luatex.def)             Requested size: 700.50586pt x 306.53812pt.
  [23
 
@@ -1217,7 +1217,7 @@ e 433.
 <16_access_adoption_gap.pdf, id=1627, 640.79471pt x 296.60686pt>
 File: 16_access_adoption_gap.pdf Graphic file (type pdf)
 <use 16_access_adoption_gap.pdf>
-Package luatex.def Info: 16_access_adoption_gap.pdf  used on input line 440.
+Package luatex.def Info: 16_access_adoption_gap.pdf  used on input line 443.
 (luatex.def)             Requested size: 700.54482pt x 324.2636pt.
  [24
 
@@ -1226,7 +1226,7 @@ Package luatex.def Info: 16_access_adoption_gap.pdf  used on input line 440.
 File: 17_productive_electricity_rdd.pdf Graphic file (type pdf)
 <use 17_productive_electricity_rdd.pdf>
 Package luatex.def Info: 17_productive_electricity_rdd.pdf  used on input line 
-447.
+450.
 (luatex.def)             Requested size: 700.51947pt x 250.19397pt.
  [25
 
@@ -1236,7 +1236,7 @@ Package luatex.def Info: 17_productive_electricity_rdd.pdf  used on input line
 File: 18_productive_electricity_heterogeneity.pdf Graphic file (type pdf)
 <use 18_productive_electricity_heterogeneity.pdf>
 Package luatex.def Info: 18_productive_electricity_heterogeneity.pdf  used on i
-nput line 454.
+nput line 457.
 (luatex.def)             Requested size: 700.53406pt x 275.49785pt.
  [26
 
@@ -1280,7 +1280,7 @@ pe1/public/lm/lmr9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm
 ></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local
 /texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/20
 26/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on document.pdf (26 pages, 794370 bytes).
+Output written on document.pdf (26 pages, 794398 bytes).
 
 PDF statistics: 2016 PDF objects out of 2073 (max. 8388607)
  579 compressed objects within 6 object streams

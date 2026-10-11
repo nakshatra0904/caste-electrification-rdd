@@ -1,26 +1,28 @@
 Call: rdrobust
 
-Covariate-adjusted Sharp RD estimates using local polynomial regression. Std. errors are clustered (1454 clusters).
+Covariate-adjusted Sharp RD estimates using local polynomial regression. Std. errors are clustered (2613 clusters).
 
-Number of Observations:                 24413
-Polynomial Order Est. (p):                  1
-Polynomial Order Bias (q):                  2
-Kernel:                            Triangular
-Bandwidth Selection:                   Manual
-Var-Cov Estimator:                        CR1
+Number of Obs.                24413
+BW type                      Manual
+Kernel                   Triangular
+VCE method                      CR1
 
-                                Left      Right
-------------------------------------------------
-Number of Observations         12644      11769
-Number of Unique Obs.            200        200
-Number of Effective Obs.        6382       6147
-Bandwidth Estimation           100.0      100.0
-Bandwidth Bias                 150.0      150.0
-rho (h/b)                      0.667      0.667
-Number of Clusters              1197       1248
+                               Left        Right
+Number of Obs.                12644        11769
+Eff. Number of Obs.            6382         6147
+Order est. (p)                    1            1
+Order bias (q)                    2            2
+BW est. (h)                 100.000      100.000
+BW bias (b)                 150.000      150.000
+rho (h/b)                     0.667        0.667
+Clusters (g)                   1281         1332
+Unique Obs.                     200          200
 
-Method             Coef.     S.E.   z-stat    P>|z|       95% CI      
--------------------------------------------------------------------------
-Conventional       0.033     0.02    1.642   1.006e-01    [-0.006, 0.073]
-Robust                 -        -     1.27   2.041e-01    [-0.016, 0.075]
+=====================================================================
+                   Point    Robust Inference
+                Estimate         z     P>|z|      [ 95% C.I. ]       
+---------------------------------------------------------------------
+     RD Effect     0.033     1.270     0.204    [-0.016 , 0.075]     
+=====================================================================
+
 Mass points detected in the running variable.

@@ -1,0 +1,23 @@
+Running 01_prepare.R 
+Running 02_descriptives.R 
+Running 03_rdd.R 
+Running 04_robustness.R 
+Running 05_graphs.R 
+Running 06_validate.R 
+         outcome                             outcome_label   term bandwidth
+ vd_pwr_d_dom_11 Village domestic electricity availability D_sc10       100
+ vd_pwr_d_dom_11 Village domestic electricity availability D_st10       100
+ hpca11_msl_elec        Households using electric lighting D_sc10       100
+ hpca11_msl_elec        Households using electric lighting D_st10       100
+ specification     estimate          se    p_value       ci_low     ci_high
+          main  0.001370458 0.003443803 0.69073106 -0.005385369 0.008126286
+          main -0.000765650 0.002794033 0.78410343 -0.006246801 0.004715501
+          main -0.007572154 0.004086846 0.06412903 -0.015589461 0.000445154
+          main -0.003886827 0.003554346 0.27435225 -0.010859511 0.003085857
+     n n_left n_right clusters    p_holm
+ 12529   6382    6147     1342 1.0000000
+ 12529   6382    6147     1342 1.0000000
+ 12533   6385    6148     1342 0.2565161
+ 12533   6385    6148     1342 0.8230567
+R data reconstruction, all eight regressions and 18 graph designs passed.
+Completed: real-data preparation, regressions, diagnostics, 18 graphs and validation.

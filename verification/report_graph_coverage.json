@@ -27,6 +27,7 @@
   "landscape_pages": 18,
   "all_pages_visually_reviewed": true,
   "numerical_estimates_changed": false,
+  "pdf_sha256": "94db7a6116787215c40ec5a4af5c1ebad1f4e942a6915b2956a5b600acc7e14f",
   "graphs": [
     {
       "graph": 1,
@@ -244,8 +245,5 @@
       "source_sha256": "f80366b9821303d732dd00d71a3a6fb5edf1152ae4298655e153ace4a664ec45",
       "report_asset_sha256": "6e21f8adee06e9bc57f4bae5f5fe0208746c3886c27952f2d9bb215b7b0581a5"
     }
-  ],
-  "report_source_sha256": "8c55b34ed4fce3b517108706b0070570a215042e4f49fae144d7ab68a8e84770",
-  "report_pdf_sha256": "4674329207345312bb28d782a6b3ec8b350d7bddc2852e5c7019c9c691e7cf8b",
-  "review_date": "2026-10-11"
+  ]
 }

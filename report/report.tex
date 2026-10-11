@@ -2,7 +2,8 @@
 \usepackage[T1]{fontenc}
 \usepackage[margin=1in]{geometry}
 \usepackage{amsmath,amssymb,booktabs,array}
-\usepackage{pgfplots,lmodern,microtype,caption,placeins,graphicx,pdflscape,luacode}
+\usepackage{pgfplots,lmodern,microtype,caption,placeins,graphicx,pdflscape,iftex}
+\ifLuaTeX\usepackage{luacode}\fi
 \graphicspath{{assets/}{}}
 \captionsetup{font=small,labelfont=bf}
 \definecolor{scblue}{HTML}{0072B2}
@@ -17,13 +18,14 @@ legend style={draw=none,font=\small},label style={font=\small},tick label style=
 \renewcommand{\arraystretch}{1.12}
 \title{Caste Composition and Rural Electrification in India:\\An Exploratory Regression-Discontinuity Extension}
 \author{nakshatra0904}
-\date{11 October 2026}
+\date{12 October 2026}
 \raggedbottom
 \makeatletter
 \setlength{\@fptop}{0pt}
 \setlength{\@fpsep}{18pt}
 \setlength{\@fpbot}{0pt plus 1fil}
 \makeatother
+\ifLuaTeX
 \begin{luacode*}
 local figures = {"01_population_frequencies.pdf",
 "02_baseline_caste_distributions.pdf",
@@ -72,6 +74,7 @@ for _,name in ipairs(figures) do
   end
 end
 \end{luacode*}
+\fi
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -267,9 +270,9 @@ Village availability, household adoption and supply reliability must not be conf
 The defensible policy conclusion is a distinction between disparities and causal responses: descriptive social gaps do not automatically demonstrate unequal gains from this particular eligibility rule. A stronger next study would combine individual caste-specific access and reliability records with later-period outcomes and credible policy assignment. This report is an exploratory, reproducible extension; it is not publication-ready causal evidence of exclusion.
 
 \section{Reproduction and execution status}
-I produced the numerical outputs and eighteen repository figures with Python statistical libraries. I provide a corresponding Stata pipeline for preparation, descriptive statistics, RDD estimation, multiplicity adjustment, robustness and graphs. I have not executed that pipeline because Stata was unavailable; its runtime verification remains outstanding. I independently checked all eight main weighted-regression coefficient vectors and CR1 cluster covariances using direct matrix calculations.
+I executed the complete R pipeline for data preparation, descriptive statistics, RDD estimation, multiplicity adjustment, robustness and all eighteen graph designs. The reconstructed data and 21 numerical tables reproduce the original reference results within the recorded tolerances. I independently checked all eight main coefficient vectors and CR1 cluster covariance matrices using weighted normal equations and explicit cluster score sums. I also verified the R extract rebuild against the complete original source archive.
 
-Run \nolinkurl{stata/00_master.do} from the repository root. It uses the verified source extract and writes to \nolinkurl{stata_generated/}, preserving the supplied outputs. Pooled bias-corrected benchmarks require \texttt{rdrobust}; the master attempts installation if absent and reports a skip if unavailable. The repository includes the compact real data, dictionaries, source checksum, analysis plan and amendment, numerical outputs, supplementary verification code and an eighteen-figure HTML gallery.
+Run \texttt{Rscript R/install\_packages.R}, then \texttt{Rscript R/00\_master.R} from the repository root. The master uses the verified source extract and writes to \nolinkurl{r_generated/}. I used R 4.5.1, haven 2.5.5, jsonlite 2.0.0 and rdrobust 4.1.1. Logs, versions, session information and numerical comparisons are retained in \nolinkurl{verification/}. The publication figures and tables, originally produced with Python, are retained as verified reference outputs; the supplied analysis code is now R. The R graphs reproduce the same metrics and designs with native R styling.
 
 The main-text tables and three summary figures are embedded in the source. The complete graphical appendix uses eighteen vector PDF assets in the report folder; compile with that assets folder alongside the source. No external bibliography file is required. The full multi-gigabyte source and published papers are linked rather than bundled. The source archive declares CC0 1.0; the new analysis code is MIT licensed.
 
@@ -325,7 +328,7 @@ State fixed effects & Yes & Yes\\
 Notes: Coefficients and block-clustered standard errors (parentheses) are multiplied by 100 to express the outcome in percentage points. The regressor $x$ is in persons; $G_{SC}$ and $G_{ST}$ are in units of ten percentage points of baseline share. $D$ alone is the conditional eligibility jump when both baseline shares are zero; it is not the average jump in Table~\ref{tab:pooled}. Full coefficient tables include the constant and state indicators and are saved for all eight outcomes. No significance stars are used; the primary interaction inference and Holm adjustment are in Table~\ref{tab:primary}.
 \end{table}
 
-The primary implementation is \nolinkurl{stata/03_rdd.do}; sensitivities and diagnostics are in \nolinkurl{stata/04_robustness.do}. Full numeric coefficient tables are in \nolinkurl{tables/full_model_*.csv}, with readable executed model summaries in \nolinkurl{verification/model_*.txt}. Run \nolinkurl{stata/00_master.do} from the extracted repository root. I executed the numerical analysis in Python; Stata runtime verification remains outstanding. The full-source audit and independent checks are retained in \nolinkurl{verification/project_audit.json} and \nolinkurl{verification/independent_matrix_checks.json}. All eighteen figures have PNG and SVG copies, appear in Appendix~B, and are displayed in the HTML gallery.
+RDD code is in \nolinkurl{R/03_rdd.R}; diagnostic code is in \nolinkurl{R/04_robustness.R}. Full numeric coefficient tables are in \nolinkurl{tables/full_model_*.csv}, with executed R summaries in \nolinkurl{verification/model_*.txt}. Run \texttt{Rscript R/00\_master.R} from the extracted repository root after installing the packages. I executed and validated the complete R analysis. Full-source audits and independent checks are retained in \nolinkurl{verification/}. All eighteen figures have PNG and SVG copies, appear in Appendix~B, and are displayed in the HTML gallery.
 
 \clearpage
 \begin{landscape}

@@ -44,3 +44,7 @@ The original primary tests remain unchanged. Inspection of the published paper's
 - Public replication data: https://doi.org/10.7910/DVN/APWICK
 - Sedai et al. (2021): https://www.sciencedirect.com/science/article/abs/pii/S0140988321003595
 - Azam (2026): https://www.iza.org/publications/dp/18493/the-enclave-penalty-tribes-caste-and-electricity-reliability-in-india
+
+## Implementation update (12 October 2026)
+
+I replaced the planned Stata implementation with R and executed the complete analysis. I preserved the original dated plan above as a record of the intended deliverables. The outcomes, estimands, bandwidths, multiplicity families and exploratory amendment are unchanged. The delivered code is now in R/; validation and package versions are retained in verification/.
