@@ -1,0 +1,69 @@
+state,caste_group,eligible,n,blocks,districts
+ANDHRA PRADESH,Other villages,0,208,142,16
+ANDHRA PRADESH,Other villages,1,261,178,17
+ANDHRA PRADESH,SC majority,0,32,26,12
+ANDHRA PRADESH,SC majority,1,38,37,10
+ANDHRA PRADESH,ST majority,0,87,41,12
+ANDHRA PRADESH,ST majority,1,64,29,7
+BIHAR,Other villages,0,653,220,25
+BIHAR,Other villages,1,718,239,25
+BIHAR,SC majority,0,159,82,20
+BIHAR,SC majority,1,137,80,20
+BIHAR,ST majority,0,36,21,9
+BIHAR,ST majority,1,12,11,6
+CHHATTISGARH,Other villages,0,50,11,3
+CHHATTISGARH,Other villages,1,75,17,3
+CHHATTISGARH,SC majority,0,18,6,2
+CHHATTISGARH,SC majority,1,27,10,2
+CHHATTISGARH,ST majority,0,39,10,3
+CHHATTISGARH,ST majority,1,24,10,3
+GUJARAT,Other villages,0,60,12,3
+GUJARAT,Other villages,1,52,16,3
+GUJARAT,SC majority,1,2,1,1
+GUJARAT,ST majority,0,61,13,3
+GUJARAT,ST majority,1,66,13,3
+HARYANA,Other villages,0,5,5,2
+HARYANA,Other villages,1,8,7,4
+HARYANA,SC majority,1,1,1,1
+JHARKHAND,Other villages,0,123,36,10
+JHARKHAND,Other villages,1,62,24,10
+JHARKHAND,SC majority,0,11,9,7
+JHARKHAND,SC majority,1,1,1,1
+JHARKHAND,ST majority,0,91,32,7
+JHARKHAND,ST majority,1,58,28,8
+KARNATAKA,Other villages,0,743,83,16
+KARNATAKA,Other villages,1,814,89,16
+KARNATAKA,SC majority,0,97,46,14
+KARNATAKA,SC majority,1,103,48,14
+KARNATAKA,ST majority,0,56,28,10
+KARNATAKA,ST majority,1,51,27,11
+MADHYA PRADESH,Other villages,0,327,42,7
+MADHYA PRADESH,Other villages,1,389,46,7
+MADHYA PRADESH,SC majority,0,20,15,5
+MADHYA PRADESH,SC majority,1,34,17,5
+MADHYA PRADESH,ST majority,0,188,28,6
+MADHYA PRADESH,ST majority,1,139,28,7
+MAHARASHTRA,Other villages,0,56,26,4
+MAHARASHTRA,Other villages,1,82,34,4
+MAHARASHTRA,SC majority,0,3,2,2
+MAHARASHTRA,SC majority,1,6,6,2
+MAHARASHTRA,ST majority,0,24,12,3
+MAHARASHTRA,ST majority,1,27,15,3
+ORISSA,Other villages,0,92,33,4
+ORISSA,Other villages,1,89,36,4
+ORISSA,SC majority,0,22,18,4
+ORISSA,SC majority,1,13,9,4
+ORISSA,ST majority,0,53,21,4
+ORISSA,ST majority,1,13,7,3
+RAJASTHAN,Other villages,0,1028,148,24
+RAJASTHAN,Other villages,1,1012,146,24
+RAJASTHAN,SC majority,0,129,40,18
+RAJASTHAN,SC majority,1,107,39,16
+RAJASTHAN,ST majority,0,278,44,11
+RAJASTHAN,ST majority,1,228,46,12
+WEST BENGAL,Other villages,0,949,177,12
+WEST BENGAL,Other villages,1,901,193,12
+WEST BENGAL,SC majority,0,341,129,12
+WEST BENGAL,SC majority,1,315,124,12
+WEST BENGAL,ST majority,0,346,84,11
+WEST BENGAL,ST majority,1,219,70,12

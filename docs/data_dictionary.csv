@@ -1,0 +1,79 @@
+variable,description,type,missing_n,source
+pca01_id,2001 PCA id,float32,0,RGGVY archive file 7887967
+vd01_id,2001 VD id,float32,0,RGGVY archive file 7887967
+pca11_id,2011 PCA id,float32,0,RGGVY archive file 7887967
+vd11_id,2011 VD id,float32,0,RGGVY archive file 7887967
+state,State,str,0,RGGVY archive file 7887967
+st_code,2001 state code,int8,0,RGGVY archive file 7887967
+district,District name,str,0,RGGVY archive file 7887967
+stdt,State-district group,int16,0,RGGVY archive file 7887967
+bk_code,2001 block code,int8,0,RGGVY archive file 7887967
+block,Block name,str,0,RGGVY archive file 7887967
+village,Village name,str,0,RGGVY archive file 7887967
+tot_p,Total Population,int32,0,RGGVY archive file 7887967
+tot_p11,Total Population,float64,0,RGGVY archive file 7887967
+tot_f,Female Population,int32,0,RGGVY archive file 7887967
+tot_f11,Female Population,float32,0,RGGVY archive file 7887967
+no_hh,Total # of HH,int16,0,RGGVY archive file 7887967
+pct_sc_01,% pop scheduled caste,float32,0,RGGVY archive file 7887967
+pct_st_01,% pop scheduled tribe,float32,0,RGGVY archive file 7887967
+lit_p_01,% pop literate,float32,0,RGGVY archive file 7887967
+pct_06_01,% pop 0-6 years old,float32,0,RGGVY archive file 7887967
+work_p_01,% pop workers,float32,0,RGGVY archive file 7887967
+work_f_01,% female pop workers,float32,0,RGGVY archive file 7887967
+work_p_11,% pop workers,float32,0,RGGVY archive file 7887967
+work_f_11,% female pop workers,float32,0,RGGVY archive file 7887967
+work_pooled_ot_p_01,% pop other workers,float32,0,RGGVY archive file 7887967
+work_pooled_ot_f_01,% female pop other workers,float32,0,RGGVY archive file 7887967
+work_pooled_ot_p_11,% pop other workers,float32,0,RGGVY archive file 7887967
+work_pooled_ot_f_11,% female pop other workers,float32,0,RGGVY archive file 7887967
+hpca01_msl_elec,% HH with electricity as main lighting source,float32,0,RGGVY archive file 7887967
+hpca11_msl_elec,% HH with electricity as main lighting source,float64,0,RGGVY archive file 7887967
+vd_pwr_d_dom_01,Electricity for domestic use (Y/N),float64,447,RGGVY archive file 7887967
+vd_pwr_d_dom_11,Electricity for domestic use (Y/N),float64,15,RGGVY archive file 7887967
+vd_pwr_d_any_01,Electricity for any uses (Y/N),float64,145,RGGVY archive file 7887967
+vd_pwr_d_any_11,Electricity for any uses (Y/N),float64,15,RGGVY archive file 7887967
+vdp_pwr_h_dom_avg_11,Avg hour of power for domestic end use (2011),float32,9646,RGGVY archive file 7887967
+vdp_pwr_d_com_11,Electricity for commercial use (Y/N),float64,15,RGGVY archive file 7887967
+vd_pwr_d_all_11,Electricity for all uses (Y/N),float64,15,RGGVY archive file 7887967
+vdp_pwr_h_com_avg_11,Avg hour of power for commercial use (2011),float32,10887,RGGVY archive file 7887967
+vplan4,RGGVY virtual plan 4 (based on RGGVY district-level data),float32,0,RGGVY archive file 7887967
+corr_state,States with correlated shapefile areas,int8,0,RGGVY archive file 7887967
+sample,Indicator for villages in nightlights sample,int8,0,RGGVY archive file 7887967
+sample_h,Indicator for villages with habitation census matches,int8,0,RGGVY archive file 7887967
+sing_h,Dummy for single-habitation villages,float64,0,RGGVY archive file 7887967
+pop_non_zero,"Villages with non-zero, non-missing populations",int8,0,RGGVY archive file 7887967
+pop_mismatch20,Indicator for sum(hab pop) not within 20% of village pop,float64,0,RGGVY archive file 7887967
+lights_max2001_hat,Linear projection of 2001 max brightness,float32,0,RGGVY archive file 7887967
+lights_max2011_hat,Linear projection of 2011 max brightness,float32,0,RGGVY archive file 7887967
+lights_max1998,1998 max village brightness,float32,0,RGGVY archive file 7887967
+lights_max1999,1999 max village brightness,float32,0,RGGVY archive file 7887967
+lights_max2000,2000 max village brightness,float32,0,RGGVY archive file 7887967
+lights_max2001,2001 max village brightness,float32,0,RGGVY archive file 7887967
+lights_max2002,2002 max village brightness,float32,0,RGGVY archive file 7887967
+lights_max2003,2003 max village brightness,float32,0,RGGVY archive file 7887967
+lights_max2004,2004 max village brightness,float32,0,RGGVY archive file 7887967
+lights_max2005,2005 max village brightness,float32,0,RGGVY archive file 7887967
+lights_max2006,2006 max village brightness,float32,0,RGGVY archive file 7887967
+lights_max2007,2007 max village brightness,float32,0,RGGVY archive file 7887967
+lights_max2008,2008 max village brightness,float32,0,RGGVY archive file 7887967
+lights_max2009,2009 max village brightness,float32,0,RGGVY archive file 7887967
+lights_max2010,2010 max village brightness,float32,0,RGGVY archive file 7887967
+lights_max2011,2011 max village brightness,float32,0,RGGVY archive file 7887967
+lights_max2012,2012 max village brightness,float32,0,RGGVY archive file 7887967
+lights_max2013,2013 max village brightness,float32,0,RGGVY archive file 7887967
+running,2001 population minus 299.5 (persons),float64,0,derived
+eligible,RGGVY eligibility: 2001 Census population >=300,int8,0,derived
+sc10,"2001 SC share, units of 10 percentage points",float64,0,derived
+st10,"2001 ST share, units of 10 percentage points",float64,0,derived
+sc_majority,sc_majority,float64,0,derived
+st_majority,st_majority,float64,0,derived
+caste_group,"2001 caste composition: ST>=50%, SC>=50%, or other",str,0,derived
+block_id,Unique state-district-block cluster identifier,int32,0,derived
+lights_change_abs,lights_change_abs,float64,0,derived
+sample_no_post_filter,Match quality sample without post-policy lights filter,int8,0,derived
+sample_preferred,Author sample: match quality and abs lights change <20,int8,0,derived
+local_200,local_200,int8,0,derived
+local_100,local_100,int8,0,derived
+lighting_change,2011 minus 2001 HH electric-lighting share,float64,0,derived
+access_adoption_gap,2011 domestic village access minus HH electric-lighting share,float64,15,derived

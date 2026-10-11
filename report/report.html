@@ -1,0 +1,139 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Caste and rural electrification</title><style>
+body{margin:0;background:#f4f6f7;color:#17242c;font:16px/1.55 system-ui,Arial,sans-serif}main{max-width:1100px;margin:0 auto;padding:34px 24px}h1{font-size:32px;line-height:1.15;max-width:900px}h2{margin-top:38px;font-size:24px}h3{font-size:18px}.intro{max-width:900px}.meta{font-size:14px;color:#56616b}.finding{border-left:4px solid #236b8e;padding:12px 20px;background:white}nav{display:flex;gap:18px;flex-wrap:wrap;margin:22px 0}a{color:#195a7b}table{border-collapse:collapse;background:white;width:100%;font-size:14px}td,th{border-bottom:1px solid #d6dfe3;padding:10px;text-align:left}th{background:#e7eef1}.tablewrap{overflow:auto}.figure{background:white;padding:20px;margin:22px 0}img{display:block;width:100%;height:auto}.figure p{font-size:13px;color:#56616b}.note{font-size:14px}@media(max-width:600px){h1{font-size:25px}main{padding:20px 12px}.figure{padding:10px}}
+</style></head><body><main><p class="meta">EXPLORATORY RESEARCH NOTE | NAKSHATRA0904 | 11 OCTOBER 2026</p><h1>Caste composition and rural electrification in India</h1><nav><a href="report.tex">Formal LaTeX source</a><a href="report.pdf">Compiled LaTeX PDF</a><a href="report.md">Detailed text report</a><a href="../README.md">Repository guide</a><a href="#figures">18-figure gallery</a><a href="../tables/heterogeneity_results.csv">SC/ST regressions</a><a href="../tables/pooled_rdrobust.csv">Pooled RDD results</a></nav><div class="intro finding"><p>I analysed 12,533 real villages, covering 1,342 administrative blocks and 129 districts across 12 states. I found no clear primary evidence that RGGVY eligibility effects on domestic village availability or household electric lighting differ with baseline SC/ST composition after adjustment for four primary comparisons. This is not evidence that benefits are equal.</p><p>For household electric lighting, a 10-percentage-point larger baseline SC share is associated with an estimated -0.76-percentage-point difference in the eligibility effect (95% interval -1.56 to +0.04; raw p=0.064; Holm p=0.257). The corresponding ST estimate is -0.39 pp (95% interval -1.09 to +0.31; Holm p=0.823).</p></div><p class="note">I compiled the formal PDF from report.tex with LuaLaTeX (TeX Live 2026) and visually checked all 26 pages. All eighteen graphs in this gallery also appear in the PDF graphical appendix, on landscape pages 9-26. I produced the outputs in Python and supply matching Stata .do files; Stata runtime verification remains outstanding. Original analytical extension of published data; publication-level novelty is not claimed.</p><h2>Pooled regression-discontinuity results</h2><p>Eligibility at population 300; state-adjusted local-linear estimates with robust bias correction and block clustering. All intervals include zero. These are local eligibility effects.</p><div class="tablewrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Outcome</th>
+      <th>Bandwidth</th>
+      <th>Bias-corrected effect (pp)</th>
+      <th>Robust 95% interval (pp)</th>
+      <th>Robust p</th>
+      <th>Villages in h</th>
+      <th>Blocks in h</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Domestic availability</td>
+      <td>MSE selected</td>
+      <td>-0.72</td>
+      <td>[-3.76, +2.33]</td>
+      <td>0.645</td>
+      <td>7533</td>
+      <td>1173</td>
+    </tr>
+    <tr>
+      <td>Domestic availability</td>
+      <td>h=100, b=150</td>
+      <td>-0.54</td>
+      <td>[-2.93, +1.85]</td>
+      <td>0.657</td>
+      <td>12529</td>
+      <td>1342</td>
+    </tr>
+    <tr>
+      <td>Household lighting</td>
+      <td>MSE selected</td>
+      <td>1.09</td>
+      <td>[-2.23, +4.41]</td>
+      <td>0.521</td>
+      <td>10682</td>
+      <td>1288</td>
+    </tr>
+    <tr>
+      <td>Household lighting</td>
+      <td>h=100, b=150</td>
+      <td>1.10</td>
+      <td>[-1.94, +4.14]</td>
+      <td>0.479</td>
+      <td>12533</td>
+      <td>1342</td>
+    </tr>
+    <tr>
+      <td>Commercial availability</td>
+      <td>MSE selected</td>
+      <td>3.59</td>
+      <td>[-1.74, +8.91]</td>
+      <td>0.187</td>
+      <td>8666</td>
+      <td>1222</td>
+    </tr>
+    <tr>
+      <td>Commercial availability</td>
+      <td>h=100, b=150</td>
+      <td>3.67</td>
+      <td>[-0.82, +8.16]</td>
+      <td>0.110</td>
+      <td>12529</td>
+      <td>1342</td>
+    </tr>
+    <tr>
+      <td>All-sector availability</td>
+      <td>MSE selected</td>
+      <td>2.86</td>
+      <td>[-2.61, +8.33]</td>
+      <td>0.306</td>
+      <td>8267</td>
+      <td>1205</td>
+    </tr>
+    <tr>
+      <td>All-sector availability</td>
+      <td>h=100, b=150</td>
+      <td>2.94</td>
+      <td>[-1.60, +7.49]</td>
+      <td>0.204</td>
+      <td>12529</td>
+      <td>1342</td>
+    </tr>
+  </tbody>
+</table></div><h2>Primary effect differences</h2><p>Percentage points per +10 percentage points of pre-policy caste share. Conventional block-clustered 95% intervals; four-test Holm correction.</p><div class="tablewrap"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>outcome</th>
+      <th>share</th>
+      <th>estimate</th>
+      <th>ci_low</th>
+      <th>ci_high</th>
+      <th>p_holm</th>
+      <th>n</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Domestic availability</td>
+      <td>SC</td>
+      <td>0.137</td>
+      <td>-0.539</td>
+      <td>0.813</td>
+      <td>1.000</td>
+      <td>12529</td>
+    </tr>
+    <tr>
+      <td>Domestic availability</td>
+      <td>ST</td>
+      <td>-0.077</td>
+      <td>-0.625</td>
+      <td>0.472</td>
+      <td>1.000</td>
+      <td>12529</td>
+    </tr>
+    <tr>
+      <td>Household lighting</td>
+      <td>SC</td>
+      <td>-0.757</td>
+      <td>-1.559</td>
+      <td>0.045</td>
+      <td>0.257</td>
+      <td>12533</td>
+    </tr>
+    <tr>
+      <td>Household lighting</td>
+      <td>ST</td>
+      <td>-0.389</td>
+      <td>-1.086</td>
+      <td>0.309</td>
+      <td>0.823</td>
+      <td>12533</td>
+    </tr>
+  </tbody>
+</table></div><h2 id="figures">Graph gallery</h2><p>Figures include descriptive comparisons, RDD displays, caste interactions and design checks. Click any figure for the full-size image. All CSV results are retained in the repository.</p><section class="figure" id="01_population_frequencies"><h3>01 population frequencies</h3><a href="../figures/01_population_frequencies.png"><img src="../figures/01_population_frequencies.png" loading="lazy" alt="01 population frequencies"></a><p>Source: public RGGVY archive; 2001 Census, population 100-499. Integer counts; this is not a continuous density test.</p></section><section class="figure" id="02_baseline_caste_distributions"><h3>02 baseline caste distributions</h3><a href="../figures/02_baseline_caste_distributions.png"><img src="../figures/02_baseline_caste_distributions.png" loading="lazy" alt="02 baseline caste distributions"></a><p>Source: Burlig-Preonas public replication data; 2001/2011 Census. Local sample: population 200-399. Caste shares are measured before the policy.</p></section><section class="figure" id="03_caste_composition_balance"><h3>03 caste composition balance</h3><a href="../figures/03_caste_composition_balance.png"><img src="../figures/03_caste_composition_balance.png" loading="lazy" alt="03 caste composition balance"></a><p>Source: public RGGVY archive, 2001 Census. Dots: 20-person bins at mean population; lines: unadjusted triangular local-linear fits, h=100.</p></section><section class="figure" id="04_rd_vd_pwr_d_dom_11"><h3>04 rd vd pwr d dom 11</h3><a href="../figures/04_rd_vd_pwr_d_dom_11.png"><img src="../figures/04_rd_vd_pwr_d_dom_11.png" loading="lazy" alt="04 rd vd pwr d dom 11"></a><p>Source: public RGGVY archive, Census 2001/2011. Dots: 20-person bins at mean population; lines: unadjusted local-linear fits, h=100. Formal models include state effects. Shading: h=100; display lines extended to the cutoff.</p></section><section class="figure" id="05_rd_hpca11_msl_elec"><h3>05 rd hpca11 msl elec</h3><a href="../figures/05_rd_hpca11_msl_elec.png"><img src="../figures/05_rd_hpca11_msl_elec.png" loading="lazy" alt="05 rd hpca11 msl elec"></a><p>Source: public RGGVY archive, Census 2001/2011. Dots: 20-person bins at mean population; lines: unadjusted local-linear fits, h=100. Formal models include state effects. Shading: h=100; display lines extended to the cutoff.</p></section><section class="figure" id="06_rd_hpca01_msl_elec"><h3>06 rd hpca01 msl elec</h3><a href="../figures/06_rd_hpca01_msl_elec.png"><img src="../figures/06_rd_hpca01_msl_elec.png" loading="lazy" alt="06 rd hpca01 msl elec"></a><p>Source: public RGGVY archive, Census 2001/2011. Dots: 20-person bins at mean population; lines: unadjusted local-linear fits, h=100. Formal models include state effects. Shading: h=100; display lines extended to the cutoff.</p></section><section class="figure" id="07_access_and_adoption_by_group"><h3>07 access and adoption by group</h3><a href="../figures/07_access_and_adoption_by_group.png"><img src="../figures/07_access_and_adoption_by_group.png" loading="lazy" alt="07 access and adoption by group"></a><p>Source: Burlig-Preonas public replication data; 2001/2011 Census. Local sample: population 200-399. Group means are descriptive, not causal effects.</p></section><section class="figure" id="08_primary_caste_heterogeneity"><h3>08 primary caste heterogeneity</h3><a href="../figures/08_primary_caste_heterogeneity.png"><img src="../figures/08_primary_caste_heterogeneity.png" loading="lazy" alt="08 primary caste heterogeneity"></a><p>Source: executed local-linear RDD, h=100, state effects and block-clustered 95% t intervals. Conventional intervals; exploratory heterogeneity.</p></section><section class="figure" id="09_employment_heterogeneity"><h3>09 employment heterogeneity</h3><a href="../figures/09_employment_heterogeneity.png"><img src="../figures/09_employment_heterogeneity.png" loading="lazy" alt="09 employment heterogeneity"></a><p>Source: executed local-linear RDD, Census 2011; h=100, state effects, block-clustered 95% t intervals. See Holm-adjusted p-values in tables.</p></section><section class="figure" id="10_bandwidth_sensitivity"><h3>10 bandwidth sensitivity</h3><a href="../figures/10_bandwidth_sensitivity.png"><img src="../figures/10_bandwidth_sensitivity.png" loading="lazy" alt="10 bandwidth sensitivity"></a><p>Source: executed caste-interacted local-linear RDD; 95% block-clustered t intervals. Wider bandwidths change both precision and smoothing bias.</p></section><section class="figure" id="11_specification_sensitivity"><h3>11 specification sensitivity</h3><a href="../figures/11_specification_sensitivity.png"><img src="../figures/11_specification_sensitivity.png" loading="lazy" alt="11 specification sensitivity"></a><p>Source: executed RDD, h=100; 95% t intervals. Includes state-specific discontinuities and population slopes; see table for all specifications.</p></section><section class="figure" id="12_baseline_balance"><h3>12 baseline balance</h3><a href="../figures/12_baseline_balance.png"><img src="../figures/12_baseline_balance.png" loading="lazy" alt="12 baseline balance"></a><p>Source: executed local-linear RDD at 299.5, h=100, state effects, block-clustered 95% t intervals. A small p-value can signal a design concern.</p></section><section class="figure" id="13_majority_group_rdd"><h3>13 majority group rdd</h3><a href="../figures/13_majority_group_rdd.png"><img src="../figures/13_majority_group_rdd.png" loading="lazy" alt="13 majority group rdd"></a><p>Source: subgroup local-linear RDD, h=100; state effects and block-clustered 95% t intervals. &gt;=50 observations and &gt;=20 blocks per side required.</p></section><section class="figure" id="14_state_sample_coverage"><h3>14 state sample coverage</h3><a href="../figures/14_state_sample_coverage.png"><img src="../figures/14_state_sample_coverage.png" loading="lazy" alt="14 state sample coverage"></a><p>Source: Burlig-Preonas public replication data; 2001/2011 Census. Local sample: population 200-399. Pooled estimates use available valid states; these counts do not establish state-specific statistical power.</p></section><section class="figure" id="15_pre_policy_nightlight_checks"><h3>15 pre policy nightlight checks</h3><a href="../figures/15_pre_policy_nightlight_checks.png"><img src="../figures/15_pre_policy_nightlight_checks.png" loading="lazy" alt="15 pre policy nightlight checks"></a><p>Source: public RGGVY archive, DMSP annual maximum brightness 1998-2004. Separate state-adjusted local-linear RDDs, h=100; block-clustered 95% t intervals.</p></section><section class="figure" id="16_access_adoption_gap"><h3>16 access adoption gap</h3><a href="../figures/16_access_adoption_gap.png"><img src="../figures/16_access_adoption_gap.png" loading="lazy" alt="16 access adoption gap"></a><p>Source: Burlig-Preonas public replication data; 2001/2011 Census. Local sample: population 200-399. Descriptive difference between two village-level measures; not a disconnection rate or individual caste gap.</p></section><section class="figure" id="17_productive_electricity_rdd"><h3>17 productive electricity rdd</h3><a href="../figures/17_productive_electricity_rdd.png"><img src="../figures/17_productive_electricity_rdd.png" loading="lazy" alt="17 productive electricity rdd"></a><p>Source: public RGGVY archive, Census 2011. Commercial and all-sector margins added as exploratory literature-motivated checks; unadjusted display fits, h=100.</p></section><section class="figure" id="18_productive_electricity_heterogeneity"><h3>18 productive electricity heterogeneity</h3><a href="../figures/18_productive_electricity_heterogeneity.png"><img src="../figures/18_productive_electricity_heterogeneity.png" loading="lazy" alt="18 productive electricity heterogeneity"></a><p>Source: executed local-linear RDD, h=100, state effects and block-clustered 95% t intervals. Exploratory outcomes added after the primary benchmark was examined.</p></section><h2>Sources</h2><ul><li><a href="https://doi.org/10.1086/730204">Burlig, F. and Preonas, L. (2024). Out of the Darkness and into the Light? Development Effects of Rural Electrification. Journal of Political Economy 132(9), 2937-2971.</a></li><li><a href="https://doi.org/10.7910/DVN/APWICK">Burlig and Preonas replication archive, Harvard Dataverse.</a></li><li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0140988321003595">Sedai, A. K., Jamasb, T., Nepal, R. and Miller, R. (2021). Electrification and welfare for the marginalized: Evidence from India. Energy Economics 102.</a></li><li><a href="https://docs.iza.org/dp18493.pdf">Azam, M. (2026). The Enclave Penalty: Tribes, Caste, and Electricity Reliability in India. IZA Discussion Paper 18493.</a></li><li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0301421517301921">Dugoua, E., Liu, R. and Urpelainen, J. (2017). Geographic and socio-economic barriers to rural electrification: New evidence from Indian villages. Energy Policy 106, 278-287.</a></li><li><a href="https://github.com/rdpackages/rdrobust">Calonico, Cattaneo, Farrell and Titiunik: rdrobust software and references.</a></li></ul></main></body></html>

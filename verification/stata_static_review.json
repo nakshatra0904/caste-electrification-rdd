@@ -1,0 +1,37 @@
+[
+  {
+    "file": "stata\\00_master.do",
+    "static_checks": "balanced braces/preserve; no backslash quote escaping",
+    "executed": false
+  },
+  {
+    "file": "stata\\01_prepare.do",
+    "static_checks": "balanced braces/preserve; no backslash quote escaping",
+    "executed": false
+  },
+  {
+    "file": "stata\\02_descriptives.do",
+    "static_checks": "balanced braces/preserve; no backslash quote escaping",
+    "executed": false
+  },
+  {
+    "file": "stata\\03_rdd.do",
+    "static_checks": "balanced braces/preserve; no backslash quote escaping",
+    "executed": false
+  },
+  {
+    "file": "stata\\04_robustness.do",
+    "static_checks": "balanced braces/preserve; no backslash quote escaping",
+    "executed": false
+  },
+  {
+    "file": "stata\\05_graphs.do",
+    "static_checks": "balanced braces/preserve; no backslash quote escaping",
+    "executed": false
+  },
+  {
+    "file": "stata\\optional_rebuild_extract.do",
+    "static_checks": "balanced braces/preserve; no backslash quote escaping",
+    "executed": false
+  }
+]

@@ -1,0 +1,7 @@
+outcome,outcome_label,term,bandwidth,specification,estimate,se,p_value,ci_low,ci_high,n,n_left,n_right,clusters,group,status
+vd_pwr_d_dom_11,Village domestic electricity availability,eligible,100,majority_group,-0.0074264734433037195,0.009408120827505275,0.4300503407974397,-0.02588439332580249,0.011031446439195052,8754,4292,4462,1219,Other villages,Estimated
+vd_pwr_d_dom_11,Village domestic electricity availability,eligible,100,majority_group,0.022273651147492756,0.023760064417965795,0.3489502180026071,-0.024399636176327327,0.06894693847131284,1615,831,784,542,SC majority,Estimated
+vd_pwr_d_dom_11,Village domestic electricity availability,eligible,100,majority_group,-0.020780113079632886,0.0206924124553534,0.3158531984444335,-0.061455986742496464,0.01989576058323069,2160,1259,901,413,ST majority,Estimated
+hpca11_msl_elec,Households using electric lighting,eligible,100,majority_group,0.02330821387191808,0.01181784003982219,0.04880237651003021,0.00012263317640890878,0.04649379456742725,8757,4294,4463,1219,Other villages,Estimated
+hpca11_msl_elec,Households using electric lighting,eligible,100,majority_group,-0.038929560092912444,0.027940856671874226,0.1641049141375842,-0.09381519566689131,0.015956075481066416,1616,832,784,543,SC majority,Estimated
+hpca11_msl_elec,Households using electric lighting,eligible,100,majority_group,-0.010327386603976044,0.02640799451644222,0.6959473084460402,-0.062238600482882475,0.04158382727493039,2160,1259,901,413,ST majority,Estimated

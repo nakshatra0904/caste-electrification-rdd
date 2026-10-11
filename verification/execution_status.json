@@ -1,0 +1,16 @@
+{
+  "python_executed": true,
+  "stata_executed": false,
+  "unique_village_ids": true,
+  "independent_cr1_check_passed": true,
+  "coefficient_max_abs_difference": 8.752000860146048e-13,
+  "covariance_max_abs_difference": 4.8853824631545084e-14,
+  "main_models_independently_checked": 8,
+  "source_n": 580643,
+  "local_main_n": 12533,
+  "local_main_blocks": 1342,
+  "local_main_districts": 129,
+  "main_bandwidth": 100,
+  "primary_tests": 4,
+  "exploratory_secondary_tests": 12
+}

@@ -1,0 +1,14 @@
+{
+  "source_records": 580643,
+  "first_wave": 290067,
+  "valid_geography": 172076,
+  "nightlights_match": 172076,
+  "habitation_match": 157974,
+  "single_habitation": 79792,
+  "positive_population": 79727,
+  "non_kerala": 79724,
+  "population_under_1000": 55320,
+  "preferred_sample": 48749,
+  "preferred_local_200": 24422,
+  "preferred_local_100": 12533
+}

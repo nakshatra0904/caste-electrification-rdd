@@ -1,0 +1,47 @@
+{
+  "data": {
+    "latestVersion": {
+      "versionNumber": 1,
+      "versionMinorNumber": 0,
+      "license": {
+        "name": "CC0 1.0",
+        "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+        "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+        "rightsIdentifier": "CC0-1.0",
+        "rightsIdentifierScheme": "SPDX",
+        "schemeUri": "https://spdx.org/licenses/",
+        "languageCode": "en"
+      },
+      "files": [
+        {
+          "label": "panel_dataset_full.dta",
+          "restricted": false,
+          "directoryLabel": "data/panel datasets",
+          "version": 1,
+          "datasetVersionId": 361594,
+          "dataFile": {
+            "id": 7887967,
+            "persistentId": "",
+            "filename": "panel_dataset_full.dta",
+            "contentType": "application/x-stata",
+            "friendlyType": "Stata Binary",
+            "filesize": 2294890843,
+            "storageIdentifier": "s3://dvn-cloud:18c9c3938e4-5b0ab90fc656",
+            "rootDataFileId": -1,
+            "md5": "93b0a08e49bc3989a2d1248660260cd5",
+            "checksum": {
+              "type": "MD5",
+              "value": "93b0a08e49bc3989a2d1248660260cd5"
+            },
+            "tabularData": false,
+            "creationDate": "2023-12-24",
+            "publicationDate": "2024-01-09",
+            "directoryLabel": "data/panel datasets",
+            "lastUpdateTime": "2024-01-09T15:22:57Z",
+            "fileAccessRequest": false
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+Call: rdrobust
+
+Covariate-adjusted Sharp RD estimates using local polynomial regression. Std. errors are clustered (1454 clusters).
+
+Number of Observations:                 24413
+Polynomial Order Est. (p):                  1
+Polynomial Order Bias (q):                  2
+Kernel:                            Triangular
+Bandwidth Selection:                   Manual
+Var-Cov Estimator:                        CR1
+
+                                Left      Right
+------------------------------------------------
+Number of Observations         12644      11769
+Number of Unique Obs.            200        200
+Number of Effective Obs.        6382       6147
+Bandwidth Estimation           100.0      100.0
+Bandwidth Bias                 150.0      150.0
+rho (h/b)                      0.667      0.667
+Number of Clusters              1197       1248
+
+Method             Coef.     S.E.   z-stat    P>|z|       95% CI      
+-------------------------------------------------------------------------
+Conventional      -0.004    0.011   -0.391   6.958e-01    [-0.025, 0.017]
+Robust                 -        -   -0.443   6.574e-01    [-0.029, 0.018]
+Mass points detected in the running variable.

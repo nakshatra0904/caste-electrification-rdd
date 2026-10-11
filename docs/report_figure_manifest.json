@@ -1,0 +1,146 @@
+[
+  {
+    "graph": 1,
+    "source": "figures/01_population_frequencies.png",
+    "report_asset": "report/assets/01_population_frequencies.pdf",
+    "title": "Population frequencies around the eligibility threshold",
+    "label": "fig:gallery01",
+    "format": "vector PDF rendered from the unchanged plotted results"
+  },
+  {
+    "graph": 2,
+    "source": "figures/02_baseline_caste_distributions.png",
+    "report_asset": "report/assets/02_baseline_caste_distributions.pdf",
+    "title": "Baseline Scheduled Caste and Scheduled Tribe composition",
+    "label": "fig:gallery02",
+    "format": "vector PDF rendered from the unchanged plotted results"
+  },
+  {
+    "graph": 3,
+    "source": "figures/03_caste_composition_balance.png",
+    "report_asset": "report/assets/03_caste_composition_balance.pdf",
+    "title": "Baseline caste composition at the eligibility boundary",
+    "label": "fig:gallery03",
+    "format": "vector PDF rendered from the unchanged plotted results"
+  },
+  {
+    "graph": 4,
+    "source": "figures/04_rd_vd_pwr_d_dom_11.png",
+    "report_asset": "report/assets/04_rd_vd_pwr_d_dom_11.pdf",
+    "title": "Village domestic electricity availability in 2011",
+    "label": "fig:gallery04",
+    "format": "vector PDF rendered from the unchanged plotted results"
+  },
+  {
+    "graph": 5,
+    "source": "figures/05_rd_hpca11_msl_elec.png",
+    "report_asset": "report/assets/05_rd_hpca11_msl_elec.pdf",
+    "title": "Household electric-lighting adoption in 2011",
+    "label": "fig:gallery05",
+    "format": "vector PDF rendered from the unchanged plotted results"
+  },
+  {
+    "graph": 6,
+    "source": "figures/06_rd_hpca01_msl_elec.png",
+    "report_asset": "report/assets/06_rd_hpca01_msl_elec.pdf",
+    "title": "Baseline household electric-lighting adoption in 2001",
+    "label": "fig:gallery06",
+    "format": "vector PDF rendered from the unchanged plotted results"
+  },
+  {
+    "graph": 7,
+    "source": "figures/07_access_and_adoption_by_group.png",
+    "report_asset": "report/assets/07_access_and_adoption_by_group.pdf",
+    "title": "Electricity availability and adoption by composition and year",
+    "label": "fig:gallery07",
+    "format": "vector PDF rendered from the unchanged plotted results"
+  },
+  {
+    "graph": 8,
+    "source": "figures/08_primary_caste_heterogeneity.png",
+    "report_asset": "report/assets/08_primary_caste_heterogeneity.pdf",
+    "title": "Primary caste heterogeneity in the eligibility effect",
+    "label": "fig:gallery08",
+    "format": "vector PDF rendered from the unchanged plotted results"
+  },
+  {
+    "graph": 9,
+    "source": "figures/09_employment_heterogeneity.png",
+    "report_asset": "report/assets/09_employment_heterogeneity.pdf",
+    "title": "Exploratory employment-effect heterogeneity",
+    "label": "fig:gallery09",
+    "format": "vector PDF rendered from the unchanged plotted results"
+  },
+  {
+    "graph": 10,
+    "source": "figures/10_bandwidth_sensitivity.png",
+    "report_asset": "report/assets/10_bandwidth_sensitivity.pdf",
+    "title": "Sensitivity to the population bandwidth",
+    "label": "fig:gallery10",
+    "format": "vector PDF rendered from the unchanged plotted results"
+  },
+  {
+    "graph": 11,
+    "source": "figures/11_specification_sensitivity.png",
+    "report_asset": "report/assets/11_specification_sensitivity.pdf",
+    "title": "Sensitivity to sample, clustering and regression specifications",
+    "label": "fig:gallery11",
+    "format": "vector PDF rendered from the unchanged plotted results"
+  },
+  {
+    "graph": 12,
+    "source": "figures/12_baseline_balance.png",
+    "report_asset": "report/assets/12_baseline_balance.pdf",
+    "title": "Predetermined balance at the eligibility boundary",
+    "label": "fig:gallery12",
+    "format": "vector PDF rendered from the unchanged plotted results"
+  },
+  {
+    "graph": 13,
+    "source": "figures/13_majority_group_rdd.png",
+    "report_asset": "report/assets/13_majority_group_rdd.pdf",
+    "title": "Exploratory eligibility effects by village-composition group",
+    "label": "fig:gallery13",
+    "format": "vector PDF rendered from the unchanged plotted results"
+  },
+  {
+    "graph": 14,
+    "source": "figures/14_state_sample_coverage.png",
+    "report_asset": "report/assets/14_state_sample_coverage.pdf",
+    "title": "State coverage of the local sample",
+    "label": "fig:gallery14",
+    "format": "vector PDF rendered from the unchanged plotted results"
+  },
+  {
+    "graph": 15,
+    "source": "figures/15_pre_policy_nightlight_checks.png",
+    "report_asset": "report/assets/15_pre_policy_nightlight_checks.pdf",
+    "title": "Night-light discontinuities before RGGVY",
+    "label": "fig:gallery15",
+    "format": "vector PDF rendered from the unchanged plotted results"
+  },
+  {
+    "graph": 16,
+    "source": "figures/16_access_adoption_gap.png",
+    "report_asset": "report/assets/16_access_adoption_gap.pdf",
+    "title": "Descriptive gap between village availability and household adoption",
+    "label": "fig:gallery16",
+    "format": "vector PDF rendered from the unchanged plotted results"
+  },
+  {
+    "graph": 17,
+    "source": "figures/17_productive_electricity_rdd.png",
+    "report_asset": "report/assets/17_productive_electricity_rdd.pdf",
+    "title": "Exploratory commercial and all-sector electricity discontinuities",
+    "label": "fig:gallery17",
+    "format": "vector PDF rendered from the unchanged plotted results"
+  },
+  {
+    "graph": 18,
+    "source": "figures/18_productive_electricity_heterogeneity.png",
+    "report_asset": "report/assets/18_productive_electricity_heterogeneity.pdf",
+    "title": "Exploratory caste heterogeneity in productive-electricity access",
+    "label": "fig:gallery18",
+    "format": "vector PDF rendered from the unchanged plotted results"
+  }
+]
